@@ -78,6 +78,7 @@ exports[`<AtomicCarousel /> Should render correctly 1`] = `
       >
         <div
           className="slide-item"
+          key="1"
         >
           <h1>
             Test1
@@ -128,13 +129,7 @@ exports[`<AtomicCarousel /> Should render correctly 1`] = `
         noMargin={false}
       >
         <ul
-          borderSeparator={false}
           className=""
-          inline={false}
-          nested={false}
-          noDefaultView={false}
-          noMargin={false}
-          style={String {}}
         >
           <li
             className="atomic-item active"
