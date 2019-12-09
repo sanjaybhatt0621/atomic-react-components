@@ -30,7 +30,7 @@ module.exports = {
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
   verbose: true,
-  testMatch: ['<rootDir>/lib/**/*.test.js'],
+  testMatch: ['<rootDir>/lib/**/AtomicCarousel.test.js'],
   moduleNameMapper: {
     '\\.(css|svg)$': 'identity-obj-proxy',
   },
