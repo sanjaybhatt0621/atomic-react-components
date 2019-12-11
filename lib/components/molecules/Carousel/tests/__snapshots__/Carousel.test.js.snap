@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> should render correctly 1`] = `
+<section
+  className="carousel-wrapper"
+>
+  <ContextProvider
+    value={
+      Object {
+        "setData": [Function],
+        "slides": Array [],
+      }
+    }
+  >
+    <ContextProvider
+      value={
+        Object {
+          "currentSlide": 1,
+          "setSlideIndex": [Function],
+        }
+      }
+    >
+      <SlideWrapper>
+        <Slide>
+          TEst 1 
+        </Slide>
+        <Slide>
+          TEst 3 
+        </Slide>
+        <Slide>
+          TEst 4 
+        </Slide>
+        <Slide>
+          TEst 2 
+        </Slide>
+      </SlideWrapper>
+    </ContextProvider>
+  </ContextProvider>
+</section>
+`;
+
+exports[`<Slide /> should render correctly 1`] = `
+<div
+  className="slide"
+>
+  TEst 1 
+</div>
+`;
+
+exports[`<SlideWrapper /> should render correctly 1`] = `
+<div
+  aria-label="carousel"
+  className="carousel-section"
+>
+  <Slide
+    id="slide_1"
+    key=".0"
+  >
+    TEst 1 
+  </Slide>
+  <Slide
+    id="slide_2"
+    key=".1"
+  >
+    TEst 3 
+  </Slide>
+</div>
+`;
